@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+          .logo-img {
+      width: 100px; /* Définissez la largeur souhaitée pour l'image */
+      height: 100px; /* Définissez la hauteur souhaitée pour l'image */
+    }
+
+    .resto-name{
+      padding-left: 0;
+    }
+
+    .restaurant-container{
+      width: 500px;
+      align-items: flex-start;
+      align-content:flex-start;
+    }

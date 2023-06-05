@@ -36,3 +36,36 @@
     transform: rotate(360deg);
   }
 }
+
+
+.image-container {
+  position: relative;
+}
+
+.button-overlay {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%)translateX(15%);
+  opacity: 0.5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+border: solid;
+  font-size:20px;
+  background-color: transparent;
+  color: white;
+  
+}
+.button-overlay:hover {
+  background-color: grey;
+}
+.bienvenu{
+  font-family:'Times New Roman', Times, serif;
+  
+  transform: translate(25%, -1000%);
+  color: white;
+}
+form {
+  text-align: center;
+}
